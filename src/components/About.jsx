@@ -5,7 +5,8 @@ const About = () => {
     display: "grid",
     gridTemplateColumns: "repeat(3, 1fr)", // 3 boxes per row
     gap: "20px",
-    padding: "20px",
+    padding: "0px",
+    margin:'10px 20px 80px 20px',
   };
 
   const boxStyle = {
@@ -13,15 +14,13 @@ const About = () => {
     borderRadius: "10px",
     backgroundColor: "#f9f9f9",
     padding: "20px",
-    boxShadow: "0 0 10px rgba(0,0,0,0.1)",
-    
+    boxShadow: "0 0 10px rgba(0,0,0,0.1)",    
     // 🔥 Force equal height for all boxes
     display: "flex",
     flexDirection: "column",
     justifyContent: "flex-start",
-
     // 🔥 Makes every box exactly same height
-    height: "250px",
+    height: "150px",
   };
 
   const headingStyle = {

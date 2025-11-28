@@ -115,12 +115,17 @@ const Navbar = ({ onImageLoad }) => {
       </div>
 
       {/* Three Block  */}
-        <div style={{justifyContent:'space-around' , display:'flex', height:'250px',marginTop:'10px'}}>
-          <div style={{width:'30%', height:'80%', border:'2px solid red',}}>1st</div>
-          <div style={{width:'30%', height:'80%', border:'2px solid red',}}>2nd</div>
-          <div style={{width:'30%', height:'80%', border:'2px solid red',}}>3rd</div>
+        <div style={{justifyContent:'space-around' , display:'flex', height:'250px',marginTop:'50px'}}>
+          <div style={{ width: '30%', height: '80%',  }}>
+            <img src="/Image1.jpeg" alt="notPossible" style={{width: '100%', height: '100%', objectFit: 'cover'}} />
+          </div>
+          <div style={{width:'30%', height:'80%', }}>
+            <img src="/Image2.jpg" alt="notPossible" style={{width: '100%', height: '100%', objectFit: 'cover'}} />
+          </div>
+          <div style={{width:'30%', height:'80%', }}>
+            <img src="/Image3.png" alt="notPossible" style={{width: '100%', height: '100%', objectFit: 'cover'}} />
+          </div>
         </div>
-
     </>
   );
 };

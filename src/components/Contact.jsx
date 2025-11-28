@@ -76,11 +76,11 @@ const Contact = ({ name, profile, linkedinFollower, instagramFollower, facebookF
           <button style={btnStyle}>Message</button>
         </div>
 
-        <div style={{ display: "flex", alignItems: "center", marginTop: "25px" }}>
+        {/* <div style={{ display: "flex", alignItems: "center", marginTop: "25px" }}>
           <div style={statsBox}><i className="bx bx-heart"></i> {linkedinFollower}</div>
           <div style={statsBox}><i className="bx bx-message-rounded"></i> {instagramFollower}</div>
           <div style={statsBox}><i className="bx bx-share"></i> {facebookFollwer}</div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
